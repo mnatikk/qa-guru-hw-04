@@ -104,6 +104,11 @@ public class RegistrationPage {
         return this;
     }
 
+    public boolean isCityEnable(){
+        return city.has(Condition.enabled);
+    }
+
+
     public void submit(){
         submit.pressEnter();
     }
